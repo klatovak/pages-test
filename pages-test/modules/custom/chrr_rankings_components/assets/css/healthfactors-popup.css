@@ -1,0 +1,16 @@
+.healthfactors-popup {
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+@media (min-width: 650px) {
+  .healthfactors-popup {
+    margin-left: 4px;
+    margin-top: 0;
+  }
+}
+
+.healthfactors-popup ul li {
+  font-size: 13px;
+  line-height: 1.2;
+}

@@ -1,0 +1,45 @@
+#normal-map {
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  width: 713px;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
+}
+
+#alert {
+  background: #f4f4f4;
+  color: #1b70b6;
+  display: none;
+  font-size: 18px;
+  height: 28px;
+  left: 50%;
+  line-height: 28px;
+  margin-left: -100px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  transition: none;
+  width: 200px;
+  z-index: 9999;
+}
+
+#welcome {
+  left: 50%;
+  margin: -28px 0 0 -158px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+}
+
+#map {
+  height: 427px;
+  margin: 0 auto;
+  width: 673px;
+}
+
+#map svg {
+  top: 18px !important;
+}
